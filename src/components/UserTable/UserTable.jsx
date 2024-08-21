@@ -1,9 +1,9 @@
-import { UserForm } from '../UserForm/UserForm';
+import { UserForm } from 'components/UserForm/UserForm';
 import { useState, useEffect } from 'react';
-import users from '../../data/Users.json';
-import userTypes from '../../data/UserTypes.json';
-import { UserFilter } from '../UserFilters/UserFilters';
-import { Loader } from '../Loader/Loader';
+import users from 'data/Users.json';
+import userTypes from 'data/UserTypes.json';
+import { UserFilter } from 'components/UserFilters/UserFilters';
+import { Loader } from 'components/Loader/Loader';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const UserTable = () => {
